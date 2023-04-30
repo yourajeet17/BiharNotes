@@ -1,0 +1,169 @@
+/* ****************************** Header css starts ****************************/
+header{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, #f8a436, #f8a436, #f8a436, #f8a436, #f8a436, #efab32, #e5b22f, #dbb930, #c1c73b, #a4d351, #83de6d, #55e78e);
+    /* background-image:linear-gradient(rgba(224, 68, 81, 0.3),rgba(227, 230, 68, 0.3)),url('../images/background.png'); */
+    /* background-repeat: no repeat; */    
+    background-size: 100% 100%;
+    position: relative;
+    /* clip-path:polygon(100% 0% , 100% 75%,50% 100%,0 75%,0 0) ; */
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+    /* margin-right: 0 3px 0 3px; */
+    padding: 4px;
+    border-radius: 20%;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    font-size: 1.4em;
+    color: 	#000000;
+    letter-spacing: 3px;
+}
+
+.navbar-brand:hover{
+    color: #000000;
+}
+
+.icon{
+    margin-right: 10px;
+    background: #fff;
+}
+
+.navbar{
+    padding:10px 0;   
+}
+
+.nav-item a{
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center!important;    
+}
+    /* text-shadow:2px 1px #000; */
+
+.nav-item a:hover{
+    background: white;
+    color: #000;    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{    
+    color: #000000;
+}
+
+.ddmenu{
+    background: transparent;
+    border: none!important;
+    color: white;
+    cursor: pointer;
+}
+
+.ddmenu:hover{
+    color: black;
+}
+
+.bgddmenu{
+    /* background:#f8a436; */
+    background-image: linear-gradient(to right, #f8a436, #f8a436, #f8a436, #f8a436, #f8a436, #efab32, #e5b22f, #dbb930, #c1c73b, #a4d351, #83de6d, #55e78e);
+    /* margin-left: -200px!important;    
+    position: fixed!important;
+    top: 15%!important;
+    left: 5%!important;
+     */
+}
+
+.bgddmenu a{
+    color: white;
+}
+
+.bgddmenu a:hover{
+    color: black;
+    background: white;
+}
+
+.mega-menu{
+    height:400px;
+    overflow: auto;
+    padding: 10px;
+}
+.mega-menu2{
+    height:230px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.styled a{
+  text-decoration: none;
+  float: left;
+  font-size: 1rem; 
+  padding: 5px;       
+}
+
+.styled a:hover{
+  background: white;
+}
+/* ****************************** Header css Ends ****************************/
+
+
+/* *****************footer section css starts****************** */
+
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background-image: linear-gradient(to right, #f8a436, #f8a436, #f8a436, #f8a436, #f8a436, #efab32, #e5b22f, #dbb930, #c1c73b, #a4d351, #83de6d, #55e78e);
+    /* background-image:linear-gradient(rgba(224, 68, 81, 0.3),rgba(227, 230, 68, 0.3)),url('../images/background.png'); */
+    /* background-image: linear-gradient(to right, #f8a436, #f8a436, #f8a436, #f8a436, #f8a436, #efab32, #e5b22f, #dbb930, #c1c73b, #a4d351, #83de6d, #55e78e); */
+    /* background: #00abff; */
+}
+
+.footersection p{
+    color: white;
+
+    
+}
+
+.footersection li a{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+} 
+
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+    text-shadow: 5px 6px 5px rgba(0,0,0,0.3);
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color:#fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn{
+    background: #606060;
+}
+/* *****************footer section css ends****************** */

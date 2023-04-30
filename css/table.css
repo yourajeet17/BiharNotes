@@ -1,0 +1,66 @@
+
+.navigation button{
+    padding: 10px;
+    text-decoration: none;
+    background: #2874f0;
+    margin: 10px 0 10px 0;
+    border: none;
+    border-radius: 12px;
+}
+
+.navigation button a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
+table>thead>tr>th{
+    color: white;
+    font-size: 0.8rem;
+    background: #2874f0;
+}
+table>tbody>tr{
+    height: 150px;
+}
+
+
+table>tbody>tr>th{
+    text-align: center;    
+    align-content: center;
+    align-self: center;
+}
+
+table>tbody>tr>td{
+    color: black;
+    font-size: 0.8rem;
+}
+
+table>tbody>tr>td>button{
+    background: #2874f0;
+    color: white;
+    padding: 5px;
+    float: right;
+    margin-bottom: 20px;
+    border-radius: 15%;
+    font-size: 15px;
+}
+
+table>tbody>tr>td>button:hover{
+    background: rgb(58, 148, 58);
+    color: white;
+    
+}
+
+table>tbody>tr>td>button>a{
+    color: white;
+    text-decoration: none;
+}
+
+
+table>tbody>tr>td>button>a:hover{
+    background: rgb(58, 148, 58);
+    color: white;
+    text-decoration: none;
+}

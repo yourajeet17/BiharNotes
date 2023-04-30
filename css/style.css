@@ -1,0 +1,367 @@
+/* ************************** Main Slider css starts *********************** */
+
+.main-slider{
+    width: 100%;
+    height: 300px;
+    padding:2px 0 10px 0;
+    margin: 10px 0 40px 0;
+}
+
+.slider-image{
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -50px!important;
+}
+
+.carousel-indicators li{
+    background-color: #f8a436!important;
+}
+
+/* ************************** Main Slider css Ends *********************** */
+
+/* *****************Card css starts****************** */
+
+.carddd{
+    width: 100%;
+    height: auto;
+    padding: 20px 0 25px 0;
+    position: relative;
+    background: linear-gradient(160deg, #f8a436 55%,#fff 0%);
+    /* background-image: linear-gradient(160deg,#f8a436, #f8a436, #f8a436, #f8a436, #f8a436, #efab32, #e5b22f, #dbb930, #c1c73b, #a4d351, #83de6d, #55e78e); */
+}
+
+.carddd::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;    
+}
+
+.card{
+    transition: 0.4s ease;
+}
+
+.card-header{
+    font-size: 1rem;
+    font-weight: bold;
+    background: #fff;
+    padding: 20px 9!important;
+}
+
+.card-body{
+    padding: 10px 0px!important;
+}
+
+.card-body p a{
+    margin: 10px 0 0 5px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.card-footer{
+    background: white!important;
+    padding: 30px 0px!important;
+}
+
+.card-footer a{
+    border: 1px solid rgb(91, 220, 230);
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: rgb(91, 220, 230);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.card-footer a:hover{
+    color: #fff;
+    background: rgb(91, 220, 230);
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.card:hover .card-header, .card:hover{
+    color: rgb(91, 220, 230);
+}
+
+
+.card-second{
+    transform: translateY(-20px);
+}
+
+
+/* ****************Card css ends******************* */
+
+/* *****************Three part header css starts****************** */
+
+.header-extradiv{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div p{
+    font-weight: bold;
+}
+
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+/* *****************Three part header css Ends****************** */
+
+.imag{
+    width: 90%;
+    height: 1200px;
+}
+
+
+
+/* ********************** Media queries*******************/
+@media(min-width:1200px){
+    .qtexth2{
+        font-size: 1.7rem;        
+        margin: 5px 0 25px 0;
+    }    
+    
+    .qtext{
+        font-size: 0.8rem;        
+    }
+
+    .qtextmenu{
+        font-size: 1rem;        
+    }          
+
+    .bgddmenu{
+        transform: translate3d(-70px, 25px, 0px);
+    }
+
+    element.style {
+        transform: translate3d(-80px, 60px, 0px);
+    }
+    .mega-menu {        
+        width: 400px;
+    }
+
+    .mega-menu2 {        
+        width: 400px;
+    }
+    
+    .qimageprof{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .qtexth2{
+        font-size: 1.7rem;        
+        margin: 5px 0 25px 0;
+    }         
+
+    .bgddmenu{
+        transform: translate3d(-70px, 25px, 0px);
+    }
+
+    element.style {
+        transform: translate3d(-80px, 60px, 0px);
+    }
+
+    .mega-menu {        
+        width: 400px;
+    }
+
+    .mega-menu2 {        
+        width: 400px;
+    }
+    .qimageprof{
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .nav-item{
+        text-align: center;
+    }
+
+    .qtexth2{
+        font-size: 1.7rem;        
+        margin: 5px 0 20px 0;
+    }      
+
+    .card{
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    .card:hover {
+        transform: translateY(-12px);            
+    }      
+
+    .bgddmenu{
+        transform: translate3d(-70px, 25px, 0px);
+    }
+
+    element.style {
+        transform: translate3d(-80px, 60px, 0px);
+    }
+
+    .mega-menu {        
+        width: 400px;
+    }
+
+    .mega-menu2 {        
+        width: 400px;
+    }
+
+    .qimageprof{
+        height: 250px;
+        width: 250px;
+    }
+
+
+}
+
+@media(min-width:361px) and (max-width:767px){
+    
+    .nav-item{
+        text-align: center;
+    }
+
+    .qtexth2{
+        font-size: 1.3rem;        
+        margin: 5px 0 20px 0;
+    }    
+
+    .card{
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    .card:hover {
+        transform: translateY(0px);            
+    }
+    
+    .qtext{
+        font-size: 0.8rem;        
+    }
+
+    .qtextmenu{
+        font-size: 1rem;        
+    }    
+
+    .bgddmenu{
+        transform: translate3d(-70px, 25px, 0px);
+    }
+
+    element.style {
+        transform: translate3d(-80px, 60px, 0px);
+    }
+
+    .mega-menu {        
+        width: 500px;
+    }
+
+    .mega-menu2 {        
+        width: 500px;
+    }
+
+    .ddmenu{
+        font-size: 1rem;
+    }
+
+    .qimageprof{
+        height: 250px;
+        width: 250px;
+    }
+
+
+}
+
+@media(max-width:360px){
+    .menu ul li a{
+        font-size: 0.9rem;
+    }
+
+    .qtext{
+        font-size: 0.8rem;        
+    }
+
+    .qtextmenu{
+        font-size: 0.9rem;
+    }
+
+    .carddd{
+        padding: 2px 0 15px 0
+    }
+
+    .main-slider {
+        height: auto;
+    }
+
+    .card{
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    .card:hover {
+        transform: translateY(0px);            
+    }
+
+    .bgddmenu{
+        transform: translate3d(-70px, 25px, 0px);
+    }
+
+    element.style {
+        transform: translate3d(-80px, 60px, 0px);
+    }
+
+    .mega-menu {        
+        width: 250px;
+    }
+
+    .mega-menu2 {
+        width:250px;
+    }
+
+    .mega-menu3 {
+        width:250px;
+        margin-left: -90px;
+    }    
+
+    .qimageprof{
+        height: 250px;
+        width: 250px;
+    }
+
+}
+/* ********************** Media queries *******************/

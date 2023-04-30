@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+i{
+    /* color: #f57117; */
+    color: #000000;
+}
+
+h2{
+    font-size: 0.9prem;
+    margin: 20px 0 15px 0;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+p{
+    font-size: .9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #000000;
+}
